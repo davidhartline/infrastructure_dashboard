@@ -2,12 +2,14 @@
 A status board for infrastructure created for IT support environments that includes some manual and automatic update functionality.
 
 # Files
-README.md ------- This document
-infrastructure_dashboard.py ------- The main code - runs the GUI. This is what you will actually run. It basically displays what load_tables.py finds in a GUI.
-getreminders.py -------- Interfaces with a ticketing system to pull info about specific tickets.
-load_tables.py ------- Interfaces with getreminders.py, infrastructure.csv, and tickets.csv to do virtually all of the data manipulation for the program.
-infrastructure.csv -------- A csv where you will put your infrastructure to be displayed.
-tickets.csv ------- A csv where you will put specific tickets tied to specific infrastructure that the dashboard should watch.
+|File      | Description|
+|----------|------------------------------------------------------------------------------------------------------------------------|
+|README.md|This document|
+|infrastructure_dashboard.py|The main code - runs the GUI. This is what you will actually run. It basically displays what load_tables.py finds in a GUI.|
+|getreminders.py|Interfaces with a ticketing system to pull info about specific tickets.|
+|load_tables.py|Interfaces with getreminders.py, infrastructure.csv, and tickets.csv to do virtually all of the data manipulation for the program.|
+|infrastructure.csv|A csv where you will put your infrastructure to be displayed.|
+|tickets.csv|A csv where you will put specific tickets tied to specific infrastructure that the dashboard should watch.|
 
 
 
