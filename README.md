@@ -18,7 +18,7 @@ This was designed with the following scenerio in mind. A IT Director or Manager 
 
 
 
-# How Set up in a new environment
+# How to set up in a new environment
 ## A. Adjust infrastructure.csv
 The program will pull infrastructure from infrasructure.csv. You need to add your infrastructure to watch to that file. Add each item to be listed on the dashboard one at a time. The header "infrastructure_item" will be what is shown on the dashboard. The heading "infrastructure_group" will be how the dashboard groups infrastructure items together. If you want things to be shown in the same group, they need to have the same infrastructure group text, and be sorted to be next to eachother in infrastructure.csv
 ## B. Add your URL and API Key
