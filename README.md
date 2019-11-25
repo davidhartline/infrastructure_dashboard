@@ -1,6 +1,8 @@
 # infrastructure_dashboard
 A status board for infrastructure created for IT support environments that includes some manual and automatic update functionality.
 
+This was designed with the following scenerio in mind. A IT Director or Manager wants to have a high level understanding of the status of infrastructure in their environment. They also want their staff to see it and know that it is looked at frequently. The Director wants it to be quick to grasp, easy to update, but not necessary to micromanage.
+
 # Files
 |File      | Description|
 |----------|------------------------------------------------------------------------------------------------------------------------|
