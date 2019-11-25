@@ -1,0 +1,70 @@
+infrastructure_item,infrastructure_group
+VM A,Host 1
+VM B,Host 1
+VM C,Host 1
+VM X,Host 2
+VM Y,Host 2
+VM Z,Host 2
+Backbone,Switches
+Failover,Switches
+Test Switch,Switches
+Email Server,Email
+Email Filter,Email
+Primary Power,Power
+Primary Power,Power
+UPS A,Power
+UPS B,Power
+UPS C,Power
+UPS D,Power
+UPS E,Power
+Company A,Internet
+Company B,Internet
+Provider A,Cloud
+Provider B,Cloud
+Provider C,Cloud
+Controller A,Active Directory
+Controller B,Active Directory
+Controller C,Active Directory
+Lorem ,Group I
+ipsum ,Group I
+dolor ,Group I
+sit ,Group I
+amet,Group I
+consectetuer ,Group I
+adipiscing ,Group J
+elit,Group J
+Maecenas ,Group J
+porttitor ,Group J
+congue ,Group J
+Fusce ,Group K
+posuere,Group K
+magna ,Group K
+sed ,Group K
+pulvinar ,Group L
+ultricies,Group L
+purus ,Group L
+Proin ,Group Q
+nec ,Group Q
+augue. ,Group Q
+Quisque ,Group Q
+aliquam ,Group Q
+tempor ,Group Alpha
+magna. ,Group Alpha
+Pellentesque ,Group Alpha
+habitant ,Group Alpha
+morbi ,Group Alpha
+tristique ,Group Alpha
+senectus ,Group H
+et netus et,Group H
+malesuada ,Group H
+fames ,Group H
+ac ,Group H
+turpis ,Group H
+egestas.,Group M
+Nunc ,Group M
+magna. ,Group M
+odio ,Group M
+Maecenas ,Group M
+dolor,Group N
+vulputate ,Group N
+auctor ,Group N
