@@ -1,0 +1,16 @@
+# infrastructure_dashboard
+A status board for infrastructure created for IT support environments that includes some manual and automatic update functionality.
+
+# Files
+README.md ------- this document
+
+
+# How Set up in a new environment
+## A. Adjust infrastructure.csv
+The program will pull infrastructure from infrasructure.csv. You need to add your infrastructure to watch to that file. Add each item to be listed on the dashboard one at a time. The header "infrastructure_item" will be what is shown on the dashboard. The heading "infrastructure_group" will be how the dashboard groups infrastructure items together. If you want things to be shown in the same group, they need to have the same infrastructure group text, and be sorted to be next to eachother in infrastructure.csv
+## B. Add your URL and API Key
+This program is designed to watch your ticketing system for updates to certain tickets to be discussed later. This was originally designed around the ManageEngine Service Desk API (https://www.manageengine.com/api/). 
+  i. If you use ManageEngine, simply update your URL and TECHNICIAN_KEY found in getreminders.py to your appropriate setting.
+  ii. If you don't use ManageEngine, the function getTicketInfo() in getreminders.py should be adjusted to your ticketing system API. It could also be adjusted to not check a ticketing system if you are not interested in the dashboard automatically updating.
+## C . Adjust tickets.csv
+The automatic update feature of this program works by an individual specifying a ticket that is associated with an issue that is associated with a specific piece of infrastructure. Once set, the dashboard will display the issue or outage on the dashboard until the ticket is marked "resolved" or "closed", so the manager doesnt have to micromanage to see a high level view of the infrastructure. Additionally, if that ticket re-opens, the dashboard will automatically update as well. That is helpful for issues that can be updated from events (For example: An email alert of resource issues on a specific VM is configured to be forwarded to the ticketing system where it automatically updates a specific ticket, pulling it out of resolved).
